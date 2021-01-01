@@ -1,0 +1,24 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+div {
+  border: solid black 2px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+}
+
+#furniture-edit-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+label {
+  margin-right: 1em;
+  text-align: right;
+}
