@@ -10,11 +10,13 @@ When you're ready, run `json-server --watch db.json`. You'll have access to furn
 
 ## Load Furniture
 
-You may run into a certain complication with the code since Crazy Dan didn't load it up correctly in his html. Once you've debugged why, first fetch all the furniture from `json-server` and then load it up into the provided `ul` element. Here's an example of what Dan's looking for in each `li`:
+You may run into a certain complication with the javascript code since Crazy Dan doesn't exactly know what he's doing. Once you've debugged why, first fetch all the furniture from `json-server` and then load it up into the provided `ul` element. Here's an example of what Dan's looking for in each `li`:
 
 ```
 <li data-id="1">Wooden Chair $19.95</li>
 ```
+
+Hint: You can access an element's dataset (in the above example, `data-id="1"`) with this bit of javascript: `selectedElement.dataset.id`
 
 ## Fill Form On Click
 
