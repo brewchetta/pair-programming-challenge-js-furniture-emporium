@@ -20,13 +20,9 @@ Hint: You can access an element's dataset (in the above example, `data-id="1"`) 
 
 ## Fill Form On Click
 
-When a piece of furniture is clicked on, add all of that furniture's details to the form in the `furniture-inspection` area. How you get the furniture's full details is up to you.
+When a piece of furniture (the `li`) is clicked on, add all of that furniture's details to the form in the `furniture-inspection` area. How you get the furniture's full details is up to you.
 
 If furniture has been selected, change the styling of that furniture's `li` element so we know it's currently being edited (the styling and method for applying it is up to you). Later, once editing is complete, change the furniture's `li` element back again so we know it's not being edited anymore.
-
-## Editing the Furniture
-
-When the form is submitted with a piece of furniture, send a patch request to the `json-server` and remove the selected `li` styling as mentioned above. If you've changed that furniture's name and/or price, make sure they change in the `li` element as well.
 
 ## Bonus
 
