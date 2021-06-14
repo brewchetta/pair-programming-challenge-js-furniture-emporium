@@ -18,7 +18,7 @@ You may run into a certain complication with the javascript code since Crazy Dan
 
 Hint: You can access an element's dataset (in the above example, `data-id="1"`) with this bit of javascript: `selectedElement.dataset.id`
 
-## Fill Form On Click
+## Fill Div On Click
 
 When a piece of furniture (the `li`) is clicked on, add all of that furniture's details to the form in the `furniture-inspection` area. How you get the furniture's full details is up to you.
 
