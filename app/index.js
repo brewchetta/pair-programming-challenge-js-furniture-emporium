@@ -22,7 +22,7 @@ function addFurnitureToList(furnitureArray) {
   furnitureArray.forEach(furniture => {
     const li = document.createElement('li')
 
-    li.textContent = furniture.name
+    li.textContent = `${furniture.name} $${furniture.price}`
     li.dataset.id = furniture.id
 
     furnitureList.append(li)
