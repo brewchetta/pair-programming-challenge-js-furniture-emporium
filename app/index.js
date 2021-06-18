@@ -13,6 +13,10 @@ fetch(URL)
 .then(response => response.json())
 .then(fetchedFurniture => {
   furnitureArray = fetchedFurniture
+
+  // BONUS: sort furniture by price
+  furnitureArray.sort((a,b) => b.price - a.price)
+
   // step two: add all furniture to the ul
   addFurnitureToList(furnitureArray)
 })
