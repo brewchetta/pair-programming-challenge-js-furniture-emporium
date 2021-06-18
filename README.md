@@ -26,4 +26,4 @@ If furniture has been selected, change the styling of that furniture's li elemen
 
 ## Bonus
 
-When the furniture gets fetched and every time that the furniture updates, order the list by price starting with the most expensive item and ending with the least expensive.
+When the furniture gets fetched, order the list by price starting with the most expensive item and ending with the least expensive.
